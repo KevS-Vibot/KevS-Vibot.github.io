@@ -3,3 +3,20 @@ canvas {
 	top: 0;
 	left: 0;
 }
+
+main {
+  padding: 4rem;
+  height: 100%;
+  z-index: 0; }
+  main .icons {
+    margin-top: 1rem; }
+    main .icons a {
+      padding: 0.4rem;
+      z-index: 0; }
+      main .icons a:hover {
+        color: #307eff;
+        transition: all 0.5s ease-out; }
+  main#home {
+    overflow: hidden; }
+    main#home h1 {
+      margin-top: 20vh; }
