@@ -34,7 +34,7 @@ var w = c.width = window.innerWidth,
 			wireframeWidth: .1,
 			wireframeColor: '#88f',
 			
-			depth: 250,
+			depth: 350,
 			focalLength: 250,
 			vanishPoint: {
 				x: w / 2,
@@ -55,7 +55,7 @@ var w = c.width = window.innerWidth,
 		tick = 0,
 		totalProb = 0,
 		
-		animating = true,
+		animating = false,
 		
 		Tau = Math.PI * 2;
 
