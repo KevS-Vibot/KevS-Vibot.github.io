@@ -1,4 +1,5 @@
-var w = c.width = window.innerWidth,
+var c = window.innerWidth,
+var w = c.width,
 		h = c.height = window.innerHeight,
 		ctx = c.getContext( '2d' ),
 		
