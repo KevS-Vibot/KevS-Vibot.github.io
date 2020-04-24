@@ -350,4 +350,4 @@ window.addEventListener( 'resize', function(){
 	ctx.fillRect( 0, 0, w, h );
 });
 
-
+window.addEventListener( 'click', init );
