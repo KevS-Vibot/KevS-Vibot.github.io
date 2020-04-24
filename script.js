@@ -62,6 +62,8 @@ var w = c.width = window.innerWidth,
 
 
 
+
+
 function init(){
 	
 	connections.length = 0;
