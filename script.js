@@ -55,7 +55,7 @@ var w = c.width = window.innerWidth,
 		tick = 0,
 		totalProb = 0,
 		
-		animating = false,
+		animating = true,
 		
 		Tau = Math.PI * 2;
 
@@ -350,3 +350,4 @@ window.addEventListener( 'resize', function(){
 	ctx.fillRect( 0, 0, w, h );
 });
 
+window.addEventListener( 'click', init );
