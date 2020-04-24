@@ -64,6 +64,7 @@ var w = c.width = window.innerWidth,
 		ctx.fillRect( 0, 0, w, h );
 		ctx.fillStyle = '#ccc';
 		ctx.font = '50px Verdana';
+		init()
 
 
 
