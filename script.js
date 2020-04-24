@@ -4,7 +4,7 @@ var w = c.width = window.innerWidth,
 		
 		opts = {
 			
-			range: 300,
+			range: 1000,
 			baseConnections: 3,
 			addedConnections: 5,
 			baseSize: 5,
