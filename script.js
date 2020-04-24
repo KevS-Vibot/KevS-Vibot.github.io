@@ -4,7 +4,7 @@ var w = c.width = window.innerWidth,
 		
 		opts = {
 			
-			range: 250,
+			range: 180,
 			baseConnections: 3,
 			addedConnections: 5,
 			baseSize: 5,
@@ -34,7 +34,7 @@ var w = c.width = window.innerWidth,
 			wireframeWidth: .1,
 			wireframeColor: '#88f',
 			
-			depth: 350,
+			depth: 250,
 			focalLength: 250,
 			vanishPoint: {
 				x: w / 2,
