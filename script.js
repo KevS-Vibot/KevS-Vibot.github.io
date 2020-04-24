@@ -349,4 +349,4 @@ window.addEventListener( 'resize', function(){
 	opts.vanishPoint.y = ( h = c.height = window.innerHeight ) / 2;
 	ctx.fillRect( 0, 0, w, h );
 });
-window.addEventListener( 'click', init );
+
