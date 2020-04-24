@@ -60,12 +60,6 @@ var w = c.width = window.innerWidth,
 		Tau = Math.PI * 2;
 
 
-		ctx.fillStyle = '#222';
-		ctx.fillRect( 0, 0, w, h );
-		ctx.fillStyle = '#ccc';
-		ctx.font = '50px Verdana';
-
-
 
 function init(){
 	
