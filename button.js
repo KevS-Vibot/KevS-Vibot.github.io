@@ -1,5 +1,5 @@
-$('a').on('click', function(){
-  $('.wrap, a').toggleClass('active');
+$('b').on('click', function(){
+  $('.wrap, b').toggleClass('active');
   
   return false;
 });

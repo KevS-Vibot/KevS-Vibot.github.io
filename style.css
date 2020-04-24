@@ -134,7 +134,7 @@ header {
   transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-a.button {
+b.button {
   padding: 11px 11px 13px 13px;
   outline: none;
   border-radius: 50%;
@@ -150,11 +150,11 @@ a.button {
   text-decoration: none;
   transition: transform 0.25s;
 }
-a.button:hover {
+b.button:hover {
   text-decoration: none;
   background: #2198ff;
 }
-a.button.active {
+b.button.active {
   transform: rotate(135deg);
   transition: transform 0.5s;
 }
