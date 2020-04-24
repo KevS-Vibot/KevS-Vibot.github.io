@@ -55,7 +55,7 @@ var w = c.width = window.innerWidth,
 		tick = 0,
 		totalProb = 0,
 		
-		animating = false,
+		animating = true,
 		
 		Tau = Math.PI * 2;
 
