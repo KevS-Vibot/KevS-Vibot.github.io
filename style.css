@@ -1,58 +1,62 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:100,200,300,400");
+
+body{
+	overflow:hidden;
+	margin:0;
+	&:before{
+		content:'';
+		background-blend-mode: multiply;
+		mix-blend-mode: multiply;
+		position:absolute;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+		z-index: 10;
+	}
+}
+
+
+
 canvas {
 	position: absolute;
-	opacity:0.5;
 	top: 0;
 	left: 0;
 }
 
-body {
-  background: #222;
-  color: white;
-  height: 100%;
-  margin: 0;
-  font-family: "Lato";
-  font-weight: 100;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  user-select: none; }
-
-h1,
-h2 {
-  margin: 0; }
-  h1.lg-heading,
-  h2.lg-heading {
-    font-size: 5rem; }
-  h1.sm-heading,
-  h2.sm-heading {
-    margin-bottom: 2rem;
-    padding: 0.2rem 01rem; }
-
 a {
   color: white;
   text-decoration: none; }
+  
 
 header {
   position: fixed;
-  z-index: 2;
+  z-index: 1;
   width: 100%; }
 
 .text-secondary {
-  color: #307eff; }
+  color: #307eff;
+  font-size: 80px;  }
+.text-primary {
+  color: white;
+  font-size: 80px; 
+}
 
-main {
-  padding: 4rem;
-  height: 100%;
-  z-index: 0; }
-  main .icons {
-    margin-top: 1rem; }
-    main .icons a {
-      padding: 0.4rem;
-      z-index: 0; }
-      main .icons a:hover {
-        color: #307eff;
-        transition: all 0.5s ease-out; }
-  main#home {
-    overflow: hidden; }
-    main#home h1 {
-      margin-top: 20vh; }
+.intro{
+	position: absolute;
+	padding:200px;
+	transform:translate(-50%, -50%);
+	left:55%;
+	top:15%;
+	color:#fafafa;
+	z-index: 1;
+	width:100%;
+	
+	font-family: "Lato";
+	h1{
+		font-size:40px;
+		font-weight:300;
+		letter-spacing:2px;
+	}
+    
+}

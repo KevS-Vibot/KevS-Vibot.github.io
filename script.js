@@ -34,7 +34,7 @@ var w = c.width = window.innerWidth,
 			wireframeWidth: .1,
 			wireframeColor: '#88f',
 			
-			depth: 350,
+			depth: 300,
 			focalLength: 250,
 			vanishPoint: {
 				x: w / 2,
@@ -58,6 +58,11 @@ var w = c.width = window.innerWidth,
 		animating = false,
 		
 		Tau = Math.PI * 2;
+
+ctx.fillStyle = '#222';
+ctx.fillRect( 0, 0, w, h );
+ctx.fillStyle = '#ccc';
+ctx.font = '50px Verdana';
 function init(){
 	
 	connections.length = 0;
@@ -340,5 +345,5 @@ window.addEventListener( 'resize', function(){
 	opts.vanishPoint.y = ( h = c.height = window.innerHeight ) / 2;
 	ctx.fillRect( 0, 0, w, h );
 });
-
+init();
 window.addEventListener( 'click', init );
