@@ -60,7 +60,7 @@ var w = c.width = window.innerWidth,
 		Tau = Math.PI * 2;
 
 
-
+init()
 function init(){
 	
 	connections.length = 0;
