@@ -401,11 +401,13 @@ b.button.active {
   transition: all 200ms;
   font-size: 35px;
   font-weight: bold;
+  background: Transparent;
   color: black;
   text-decoration: none;
+  opacity: 1;
 }
 .popup .close:hover {
-  color: #06D85F;
+  color: #black;
 }
 .popup .content {
   max-height: 100%;
