@@ -125,6 +125,7 @@ canvas {
 	position: absolute;
 	top: 0;
 	left: 0;
+	color: rgba(255,255,255,1);
 }
 
 a {
@@ -295,7 +296,7 @@ b.button.active {
   z-index: -1;
 }
 
-.bt2 {
+.button_studies {
   background-color: Transparent;
   border: none; /* Remove borders */
   color: white; /* White text */
