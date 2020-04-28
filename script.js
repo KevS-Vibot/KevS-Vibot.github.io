@@ -346,6 +346,6 @@ window.addEventListener( 'resize', function(){
 	ctx.fillRect( 0, 0, w, h );
 });
 init();
-window.addEventListener( 'click', init );
+//window.addEventListener( 'click', init );
 
 
