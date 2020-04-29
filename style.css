@@ -15,9 +15,8 @@ body{
 		height:100%;
 		z-index: 0%;
 		font-family: 'Lato';
-	
-	}
-}
+}}
+
 
 .button_marc {
   background-color: Transparent;
@@ -444,7 +443,6 @@ b.button.active {
 		font-family: 'Lato';
 	
 	}
-}
 
   .intro{
 	position: absolute;
@@ -463,9 +461,9 @@ b.button.active {
 		letter-spacing: 2px;
 	}
     
+  }
 }
-	
-}
+  
 
 @media screen and (max-width: 768px) {
   body{
@@ -483,9 +481,7 @@ b.button.active {
 		height:100%;
 		z-index: 0%;
 		font-family: 'Lato';
-	
 	}
-}
 
   .intro{
 	position: absolute;
@@ -504,6 +500,14 @@ b.button.active {
 		letter-spacing: 2px;
 	}
     
+  }
+  
+  .text-secondary {
+  color: #307eff;
+  font-size: 53px;  }
+  .text-primary {
+  color: white;
+  font-size: 53px; 
 }
 	
 }
@@ -525,8 +529,7 @@ b.button.active {
 		z-index: 0%;
 		font-family: 'Lato';
 	
-	}
-}
+    }
 
   .intro{
 	position: absolute;
@@ -545,6 +548,14 @@ b.button.active {
 		letter-spacing: 2px;
 	}
     
+  }
+
+  .text-secondary {
+  color: #307eff;
+  font-size: 34px;  }
+  .text-primary {
+  color: white;
+  font-size: 34px; 
 }
 	
 }
